@@ -55,21 +55,21 @@ The project requires the following libraries:
 ### Disparity Maps
 Below is a comparison of reconstructed disparity maps for the "Art" stereo image pair:
 
-| **Ground Truth**             | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
-|-------------------------------|-------------------------------------|----------------------------------|---------------------------------|
-| ![Ground Truth](disparity_maps/gt_disp1_Art.png) | ![Window-Based](disparity_maps/pred_disp1_my_Art.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Art.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Art.png) |
+| **Ground Truth**                                           | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
+|------------------------------------------------------------|-------------------------------------|----------------------------------|---------------------------------|
+| ![Ground Truth](PSNR_Python/gt/Art/disp1_resized.png)      | ![Window-Based](disparity_maps/pred_disp1_my_Art.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Art.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Art.png) |
 
 Below is a comparison of reconstructed disparity maps for the "Dolls" stereo image pair:
 
-| **Ground Truth**             | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
-|-------------------------------|-------------------------------------|----------------------------------|---------------------------------|
-| ![Ground Truth](disparity_maps/gt_disp1_Dolls.png) | ![Window-Based](disparity_maps/pred_disp1_my_Dolls.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Dolls.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Dolls.png) |
+| **Ground Truth**                                           | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
+|------------------------------------------------------------|-------------------------------------|----------------------------------|---------------------------------|
+| ![Ground Truth](PSNR_Python/gt/Dolls/disp1_resized.png)    | ![Window-Based](disparity_maps/pred_disp1_my_Dolls.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Dolls.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Dolls.png) |
 
 Below is a comparison of reconstructed disparity maps for the "Reindeer" stereo image pair:
 
-| **Ground Truth**             | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
-|-------------------------------|-------------------------------------|----------------------------------|---------------------------------|
-| ![Ground Truth](disparity_maps/gt_disp1_Reindeer.png) | ![Window-Based](disparity_maps/pred_disp1_my_Reindeer.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Reindeer.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Reindeer.png) |
+| **Ground Truth**                                           | **Window-Based Matching**           | **StereoSGBM**                  | **PSMNet**                     |
+|------------------------------------------------------------|-------------------------------------|----------------------------------|---------------------------------|
+| ![Ground Truth](PSNR_Python/gt/Reindeer/disp1_resized.png) | ![Window-Based](disparity_maps/pred_disp1_my_Reindeer.png) | ![StereoSGBM](disparity_maps/pred_disp1_opencv_Reindeer.png) | ![PSMNet](disparity_maps/pred_disp1_psmnet_Reindeer.png) |
 
 ### PSNR Values
 | **Method**                | **Art** | **Dolls** | **Reindeer** |
