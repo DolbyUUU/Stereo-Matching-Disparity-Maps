@@ -1,0 +1,19 @@
+My Implementation of Window-based Matching:
+
+Image pair Art, traditional method: the Peak-SNR value is 12.405091171487392.
+Image pair Dolls, traditional method: the Peak-SNR value is 12.15037908435072.
+Image pair Reindeer, traditional method: the Peak-SNR value is 10.840423496329175.
+
+
+OpenCV Stereo Semi-Global Block Matching:
+
+Image pair Art, traditional method: the Peak-SNR value is 12.668272347789147.
+Image pair Dolls, traditional method: the Peak-SNR value is 16.150971472397654.
+Image pair Reindeer, traditional method: the Peak-SNR value is 15.575014519228986.
+
+
+Pyramid Stereo Matching Network (PSMNet):
+
+Image pair Art (resized to 70 percent): the Peak-SNR value is 15.785546742115963.
+Image pair Dolls (resized to 70 percent): the Peak-SNR value is 15.256401268335978.
+Image pair Reindeer (resized to 70 percent): the Peak-SNR value is 15.949138058038553.
