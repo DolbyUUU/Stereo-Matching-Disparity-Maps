@@ -1,4 +1,4 @@
-# 📸 StereoMatching-DisparityMaps
+# 📸 Stereo Matching for Disparity Maps
 
 ## 🌟 Overview
 This repository implements and compares multiple stereo matching techniques to generate disparity maps from stereo image pairs. The methods include:
